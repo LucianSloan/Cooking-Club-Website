@@ -7,13 +7,10 @@ p{
 h3{
     font-size:25px;
 }
-ul{
+ul, ol{
   font-size:20px;  
 }
-ol{
-  font-size:20px;      
-}
-img{
+#food-img{
     width:600px ;
 }
 .day{

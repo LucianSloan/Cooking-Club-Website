@@ -29,6 +29,8 @@ header {
 #nav a:hover {
     transform: scale(1.1);
     box-shadow: #000000;
+    text-decoration: none;
+    font-style: normal;
 }
 
 body {
