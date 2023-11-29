@@ -1,23 +1,38 @@
 header {
-    background-color: red;
-    display: flex;
+    background-color: #d7073a;
+    padding: 0;
+    margin: 0;
+    position: sticky;
 }
 
 #nav {
     display: flex;
-    justify-content: center;
-    flex-grow: 7;
-    margin-left: 5vw;
-    font-size: 2.5vw;
-    font-size: 2.5vw;
-    font-size: 2.5vw;
+    justify-content: right;
+    font-size: 14px;
+    background-color: #434343;
 }
 
 #nav a {
+    margin: 4px;
     margin-left: 1vw;
-    padding: 70px 0;
+    margin-right: 1em;
+    padding: 5px 4px;
+    background-color: #d7073a;
+    border-radius: 20px;
+    border:3px solid #000000;
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+    transition: transform 1s;
 }
 
-#logo {
-    flex-grow: 3;
+#nav a:hover {
+    transform: scale(1.1);
+    box-shadow: #000000;
 }
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
