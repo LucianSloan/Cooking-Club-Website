@@ -1,18 +1,36 @@
 h1{ 
     font-size:50px;
+    margin: 0;
+    margin-bottom: -12px;
+    padding: 0;
 }
+
 p{
-    font-size:30px;
+    font-size:15px;
+    margin: 0;
+    padding: 0;
+    color: grey;
 }
+
 h3{
     font-size:25px;
 }
+
 ul, ol{
   font-size:20px;  
 }
+
 #food-img{
-    width:600px ;
+    display: block;
+    margin: auto;
+    width: 30%;
 }
-.day{
-    color:grey;
+
+#title {
+    border-bottom: 5px solid #d7073a ;
+    display: inline-block;
+    margin: 1vw;
+    margin-bottom: 3vw;
+    padding: 0;
+    min-width: 30%;
 }
