@@ -9,11 +9,12 @@ p{
     font-size:15px;
     margin: 0;
     padding: 0;
-    color: grey;
 }
 
 h3{
-    font-size:25px;
+    font-size:30px;
+    border-bottom: 5px solid #d7073a ;
+    display: inline-block;
 }
 
 ul, ol{
@@ -21,9 +22,9 @@ ul, ol{
 }
 
 #food-img{
-    display: block;
-    margin: auto;
+    display: inline-block;
     width: 30%;
+    margin-left: 36vw;
 }
 
 #title {
@@ -33,4 +34,37 @@ ul, ol{
     margin-bottom: 3vw;
     padding: 0;
     min-width: 30%;
+}
+
+#title p {
+    color: grey;
+}
+
+#info {
+    max-width: 30vw;
+    display: inline-block;
+    position: absolute;
+    margin-left: 1vw;
+}
+
+.step {
+    width: 98%;
+    margin: 0 auto;
+    border-radius: 60px;
+    padding: 10px;
+    min-height: 30px;
+    margin-bottom: 0.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.red {
+    background-color: #d7073a;
+}
+
+.grey {
+    background-color: #434343;
+}
+
+#instructions {
+    margin-left: 1vw;
 }
