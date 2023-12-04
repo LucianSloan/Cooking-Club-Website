@@ -1,0 +1,18 @@
+table, th, td {
+    border: 3px solid  #434343;
+    border-collapse: collapse;
+    padding-left: 700px;
+}
+td{
+  padding: 2%;
+  margin: 1.5%;
+}
+th.date{
+}
+th{
+  padding-left: 3%;
+  padding-right: 2%;
+  margin: 3%;
+  text-align: center;
+  width: 100px;
+}
