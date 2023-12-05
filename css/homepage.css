@@ -1,0 +1,7 @@
+#slideshow {
+    width: 90%;
+    height: 25vw; 
+    background-image:url("/images/silly-little-guy.jpeg");
+    background-size: cover;
+    margin: 0 auto;
+}
