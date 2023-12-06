@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>recepie template</title>
+        <link rel="stylesheet" type="text/css" href="./css/header.css">
+        <link rel="stylesheet" type="text/css" href="./css/reciepe.css">
+    </head>
+    <body>
+        <header>
+            <img id = "logo" src="https://www.spokaneschools.org/SPS/Schoolwires.2015Files/3.1.15/images/logos/northcentral.png">
 
+            <div id = "nav">
+                <a href="https://example.com">place_holder</a>
+                <a href="https://example.com">place_holder</a>
+                <a href="https://example.com">place_holder</a>
+            </div>
+        </header>
+
+        <main>
+            <div id = "title">
+                <h1>Homemade Chips and Salsa</h1>
+                <h4>2023-18-sep</h4>
+            </div>
+            <br>
+            <div style="display: inline;">
+                <div id = "info">
+                    <p> Baked tortilla chips with an amazing sauce to go with it. The sauce can also be use as a topping for tacos. </p>
+                    <h3> Pico de Gallo Ingredients</h3>
+                    <ul>
+                        <li>6 roma (plum) tomatoes, diced</li>
+                        <li>½ red onion, minced</li>
+                        <li>3 tablespoons chopped fresh cilantro</li>
+                        <li>½ jalapeño pepper, seeded and minced</li>
+                        <li>½ lime, juiced</li>
+                        <li> 1 clove garlic, minced</li>
+                        <li> 1 pinch garlic powder</li>
+                        <li> 1 pinch ground cumin, or to taste</li>
+                       
+
+                    <h3> baked chips Ingredients</h3>
+                    <ul>
+                        <li>ingredient 1</li>
+                        <li>ingredient 2</li>
+                        <li>ingredient 3</li>
+                        <li>ingredient 4</li>
+                        <li>ect</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <img id = "food-img" src="C:\Users\604016\Downloads\1000004094.jpg">
+            <div>
+                <h3 id="instructions"> Instructions</h3>
+                <div class = "step red">
+                    1:
+                </div>
+                <div class = "step grey">
+                    2:
+                </div>
+                <div class = "step red">
+                    3:
+                </div>
+                <div class = "step grey">
+                    4:
+                </div>
+                <div class = "step red">
+                    ...
+                </div>
+            </div>
+        </main>
+        
+
+    </body>
+</html>
