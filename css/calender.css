@@ -3,16 +3,35 @@ table, th, td {
     border-collapse: collapse;
     padding-left: 700px;
 }
+table{
+  margin-left: 1.8%;
+}
 td{
-  padding: 2%;
-  margin: 1.5%;
+  padding:2%;
+  margin:1.5%;
+  font-weight:100px;
+  th{
+  th{
 }
-th.date{
-}
-th{
   padding-left: 3%;
   padding-right: 2%;
   margin: 3%;
-  text-align: center;
+  text-align:center;
+  width:15%;
+}
+
+#calander-right-side{
+  float: right;
+  margin-right:15%;
+  margin-left: 0%;
+  margin-top: 0%;
+  height: 500px;
   width: 100px;
+  display: inline;
+}
+a{
+  color: #d7073a;
+}
+#title{
+  margin-left: 2%;
 }
