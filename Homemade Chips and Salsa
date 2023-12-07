@@ -39,35 +39,57 @@
 
                     <h3> baked chips Ingredients</h3>
                     <ul>
-                        <li>ingredient 1</li>
-                        <li>ingredient 2</li>
-                        <li>ingredient 3</li>
-                        <li>ingredient 4</li>
-                        <li>ect</li>
+                        <li>1 (12 ounce) package corn tortillas</li>
+                        <li> tablespoons lime juice</li>
+                        <li>1 tablespoon vegetable oil</li>
+                        <li>1 teaspoon ground cumin</li>
+                        <li>1 teaspoon chili powder</li>
+                        <li>1 teaspoon salt</li>
                     </ul>
                 </div>
             </div>
             
             <img id = "food-img" src="C:\Users\604016\Downloads\1000004094.jpg">
             <div>
-                <h3 id="instructions"> Instructions</h3>
+                <h3 id="instructions"> Backed Tortilla Chips Instructions</h3>
                 <div class = "step red">
-                    1:
+                    1:Preheat oven to 350 degrees F (175 degrees C).
                 </div>
                 <div class = "step grey">
-                    2:
+                    2:Stack tortillas in layers of 5 or 6. Cut through each stack to make 8 wedges. Arrange wedges in a single layer on rimmed baking sheets.
                 </div>
                 <div class = "step red">
-                    3:
+                    3:Combine lime juice and oil in a spray bottle or mister; shake until well mixed. Spray the tops of the tortilla wedges until slightly moist.
+
+
                 </div>
                 <div class = "step grey">
-                    4:
+                    4:Combine cumin, chili powder, and salt in a small bowl; sprinkle mixture over the chips.
                 </div>
                 <div class = "step red">
-                    ...
+                    5:Bake in the preheated oven for 7 minutes.
+                </div>
+                  <div class = "step grey">
+                    6:Remove from the oven. Flip chips, then mist and season again.
+                </div>
+                <div class = "step red">
+                    7:Return to the oven, rotating the pans and switching racks. Bake, checking often to ensure they don't burn, until chips are lightly browned and crisp, 5 to 8 more minutes.
+                </div>
+                 <div class = "step grey">
+                   8:Remove from the oven and cool slightly before serving. Chips will crisp up more as they cool.
+                </div>
+                <h3 id="instructions"> Pico de Gallo Instructions</h3>
+                 <div class = "step red">
+                    1:Perpare the Ingerdants 
+                </div>
+                  <div class = "step grey">
+                   2:Thow it all in a bull togather 
+                <div class = "step red">
+                    3:Stir tell its well mixed
                 </div>
             </div>
         </main>
+   
         
 
     </body>
