@@ -4,7 +4,7 @@ var index = 0;
 
 function upindex() {
     index++;
-    if (index > img_array.length() - 1) {
+    if (index > img_array.length - 1) {
         index = 0;
     }
     img_change();
@@ -13,7 +13,7 @@ function upindex() {
 function downindex() {
     index--;
     if (index < 0) {
-        index = img_array.length() - 1;
+        index = img_array.length - 1;
     }
     img_change();
 }
