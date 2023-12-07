@@ -29,11 +29,20 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    opacity: 1;
+    opacity: 0.8;
+    margin-top: 11vw;
     background: none;
     border: none;
     outline: none;
     box-shadow: none;
+}
+
+.arrow-bar button:active {
+    opacity: 1;
+}
+
+.arrow-bar button:hover {
+    cursor: pointer;
 }
 
 #spacer {
