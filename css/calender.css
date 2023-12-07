@@ -5,14 +5,14 @@ table, th, td {
 }
 table{
   margin-left: 1.8%;
+  margin-top: 0%;
 }
 td{
   padding:2%;
   margin:1.5%;
   font-weight:100px;
-  th{
-  th{
 }
+th{
   padding-left: 3%;
   padding-right: 2%;
   margin: 3%;
@@ -21,17 +21,25 @@ td{
 }
 
 #calander-right-side{
-  float: right;
-  margin-right:15%;
-  margin-left: 0%;
-  margin-top: 0%;
-  height: 500px;
-  width: 100px;
-  display: inline;
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  border:1px solid rgb(255, 255, 0);
+  float: left;
 }
 a{
   color: #d7073a;
 }
 #title{
   margin-left: 2%;
+  padding: 0%;
+  margin-bottom: 0%;
 }
+#right-title{
+  text-align: center;
+}
+h2{
+}
+#div-left{
+  background-color: blue;
