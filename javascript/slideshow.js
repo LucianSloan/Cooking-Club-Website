@@ -21,3 +21,5 @@ function downindex() {
 function img_change() {
     document.getElementById("slideshow").style.backgroundImage = "url(" + img_array[index] + ")";
 }
+
+setInterval(upindex, 10000);
