@@ -24,12 +24,16 @@
     opacity: 0.4;
 }
 
-.arrow-bar img {
+.arrow-bar button {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    
+    opacity: 1;
+    background: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
 }
 
 #spacer {
