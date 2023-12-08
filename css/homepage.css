@@ -15,6 +15,7 @@
     height: 25vw; 
     background-image: url("../images/silly-little-guy.jpeg");
     background-size: contain;
+    transition: background-image 1s;
 }
 
 .arrow-bar {
