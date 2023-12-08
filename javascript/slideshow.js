@@ -1,4 +1,4 @@
-var img_array = ["url(../images/silly-little-guy.jpeg)", "url(../images/placeholder2.png)"];
+var img_array = ["url(./images/silly-little-guy.jpeg)", "url(./images/placeholder2.png)"];
 
 var index = 0;
 

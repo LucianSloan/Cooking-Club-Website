@@ -14,7 +14,7 @@
 #slideshow {
     height: 25vw; 
     background-image: url("../images/silly-little-guy.jpeg");
-    background-size: cover;
+    background-size: contain;
 }
 
 .arrow-bar {
