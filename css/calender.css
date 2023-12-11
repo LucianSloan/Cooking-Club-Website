@@ -1,46 +1,98 @@
 table, th, td {
-    border: 3px solid  #434343;
-    border-collapse: collapse;
-    padding-left: 700px;
+  border: .2vw solid  #434343;
+  border-collapse: collapse;
+  padding-left: 700px;
 }
 table{
-  margin-left: 1.8%;
-  margin-top: 0%;
+margin-left: 1.8%;
+margin-top: 0%;
+margin-right: 2%;
 }
 td{
-  padding:2%;
-  margin:1.5%;
-  font-weight:100px;
+padding:2%;
+margin:1.5%;
+font-weight:100px;
+text-align: center;
+font-size: .9vw;
 }
 th{
-  padding-left: 3%;
-  padding-right: 2%;
-  margin: 3%;
-  text-align:center;
-  width:15%;
+padding-left: 3%;
+padding-right: 2%;
+margin: 3%;
+text-align:center;
+width: 9vw;
+font-size: 1.4vw;
 }
 
 #calander-right-side{
-
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
-  border:1px solid rgb(255, 255, 0);
-  float: left;
+margin-left: 15%;
+width: 35lvw;
+border:1px solid #ff0;
+margin-right: 45%;
 }
 a{
-  color: #d7073a;
+color: #d7073a;
+text-decoration: none;
 }
 #title{
-  margin-left: 2%;
-  padding: 0%;
-  margin-bottom: 0%;
+  font-size: 3vw;
+margin-left: 2%;
+padding: 0%;
+width: 70%;
+margin-bottom: 1vw;
+border-bottom: .3vw solid #d7073a;
 }
 #right-title{
-  text-align: center;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-bottom: .3vw solid #d7073a;
+width: 29vw;
+margin-top: 4vw;
 }
 h2{
+  font-size: 2vw;
 }
 #div-left{
-  background-color: blue;
+  float: left;
+  width: 50%;
+}
+#div-right{
+  float: right;
+  width: 50%;
+  margin-top: 2vw;
+}
+
+
+.food {
+  border: 5px solid #d7073a;
+  height: 22vw;
+  width: 35vw;
+  margin-bottom: 1em;
+  transition: transform 0.5s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.food img {
+  width: 35vw;
+  height: 20vw;
+ margin-bottom: -.3vw;
+}
+
+.food p {
+  background-color:#434343;
+  color: white;
+  padding: 4px;
+  font-size: 20px;
+  padding-top: 0%;
+  padding-left: 5px;
+  height: 1em;
+  text-align: center;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.food:hover {
+  transform: scale(1.03, 1.03);
 }
