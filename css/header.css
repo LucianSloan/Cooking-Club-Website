@@ -23,14 +23,19 @@ header {
     color: white;
     text-decoration: none;
     font-family: sans-serif;
-    transition: transform 1s;
+    transition: ease all 0.3s;
+    opacity: 0.9;
 }
 
 #nav a:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: #000000;
     text-decoration: none;
     font-style: normal;
+}
+
+#nav a:active {
+    opacity: 1;
 }
 
 body {

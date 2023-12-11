@@ -4,6 +4,15 @@
     margin-top: 1vw;
 }
 
+.center-vertical {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 .flex {
     display: flex;
     justify-content: center;
@@ -73,6 +82,7 @@
     text-align: center;
     border: #434343 solid 5px;
     height: 475px;
+    position: relative;
 }
 
 #links h1 {
@@ -81,9 +91,19 @@
 }
 
 #links a {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 1em;
     display: block;
+    text-decoration: none;
+    font-weight: 100;
+    color:black;
+    font-family: sans-serif;
+    border-bottom: 5px solid #d7073a ;
+}
+
+#links a:active {
+    font-weight: 500;
+    color:black;
 }
 
 /*food icons*/
