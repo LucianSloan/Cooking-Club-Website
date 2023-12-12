@@ -7,18 +7,16 @@
         
         <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script> 
         <script type="text/javascript" src="./javascript/slideshow.js"></script>
+
+        <script> 
+            $(function(){
+              $("#includedContent").load("./snippets/header.html"); 
+            });
+        </script> 
     </head>
     
     <body>
-        <header>
-            <img id = "logo" src="https://www.spokaneschools.org/SPS/Schoolwires.2015Files/3.1.15/images/logos/northcentral.png">
-
-            <div id = "nav">
-                <a href="https://example.com">place_holder</a>
-                <a href="./calender.html">recipes</a>
-                <a href="./Home-page.html">home</a>
-            </div>
-        </header>
+        <div id="includedContent"></div>
 
         <main>
             <div id = "slideshow" class = "center flex"> 
