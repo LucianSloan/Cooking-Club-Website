@@ -98,7 +98,8 @@
     font-weight: 100;
     color:black;
     font-family: sans-serif;
-    border-bottom: 5px solid #d7073a ;
+    border-bottom: 2px solid #d7073a ;
+    padding-bottom: 1px;
 }
 
 #links a:active {
