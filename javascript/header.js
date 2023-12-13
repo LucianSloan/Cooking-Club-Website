@@ -4,8 +4,8 @@ document.write('\
 \
         <div id = "nav">\
             <a href="https://example.com">place_holder</a>\
-            <a href="../calender.html">calender</a>\
-            <a href="../Home-page.html">home</a>\
+            <a href="./calender.html">calender</a>\
+            <a href="./Home-page.html">home</a>\
         </div>\
     </header>\
 ');
