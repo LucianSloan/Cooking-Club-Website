@@ -23,8 +23,9 @@ ul, ol{
 
 #food-img{
     display: inline-block;
-    width: 30%;
-    margin-left: 50vw;
+    width: 35%;
+    margin-left: 55vw;
+    margin-top: 6vw;
 }
 
 #title {
